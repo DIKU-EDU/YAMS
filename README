@@ -1,3 +1,21 @@
+YAMS - Yet Another MIPS Simulator
+
+To install YAMS, type the following at your prompt:
+
+./configure
+make
+make install
+
+OBS! If you are installing YAMS to work with KUDOS, we recommend the following
+instead:
+
+./configure --prefic=$HOME/osm
+make
+make install
+
+This way, you wouldn't need administrative priviliges to make install as YAMS
+gets installed in your user's $HOME/osm/ rather than system-wide.
+
 Options to configure:
 
 
