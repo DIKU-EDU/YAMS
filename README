@@ -14,7 +14,8 @@ make
 make install
 
 This way, you wouldn't need administrative priviliges to make install as YAMS
-gets installed in your user's $HOME/osm/ rather than system-wide.
+gets installed in your user's $HOME/osm/ rather than system-wide. This assumes
+that you've already added $HOME/osm/bin to your PATH.
 
 Options to configure:
 
